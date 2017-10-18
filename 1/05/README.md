@@ -1,6 +1,5 @@
 ### Exercise 1.5.
 Ben Bitdiddle has invented a test to determine whether the interpreter he is faced with is using applicative-order evaluation or normal-order evaluation. He defines the following two procedures:
-
 ```scheme
 (define (p) (p))
 (define (test x y)
@@ -8,13 +7,11 @@ Ben Bitdiddle has invented a test to determine whether the interpreter he is fac
       0
       y))
 ```
-
 Then he evaluates the expression
-
 ```scheme
 (test 0 (p))
 ```
-
 What behavior will Ben observe with an interpreter that uses applicative-order evaluation? What behavior will he observe with an interpreter that uses normal-order evaluation? Explain your answer. (Assume that the evaluation rule for the special form `if` is the same whether the interpreter is using normal or applicative order: The predicate expression is evaluated first, and the result determines whether to evaluate the consquent or the alternative expression.)
 
-*In normal-order evaluation, the definition of* `p` *is never used, so the expression would correctly reduce to* `0`*. However, in applicative order,* `p` *must be evaluated. Since there is no definition for* `p`*, the interpreter will not know what to do.*
+### Solution
+In normal-order evaluation, the definition of `p` is never used, so the expression would correctly reduce to `0`. However, in applicative order, `p` must be evaluated. Since there is no definition for `p`, the interpreter will not know what to do.

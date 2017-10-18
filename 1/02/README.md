@@ -3,6 +3,7 @@ Translate the following expression into prefix form
 
 ![Equation](equation.gif)
 
+### Solution
 ```scheme
 (/ (+ 5
       4
