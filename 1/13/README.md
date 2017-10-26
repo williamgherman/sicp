@@ -40,6 +40,8 @@ At this point, if we assume that Fib(n) = (φ<sup>n</sup> - ψ<sup>n</sup>)/√5
              = (φⁿ⁺¹φ⁻¹(1 + φ⁻¹) - ψⁿ⁺¹ψ⁻¹(1 + ψ⁻¹)) / √5   see given (3)
              = (φⁿ⁺¹φ⁻¹φ - ψⁿ⁺¹ψ⁻¹ψ) / √5
              = (φⁿ⁺¹ - ψⁿ⁺¹)/√5
+
+#### 2. Prove that Fib(n) is the closest integer to φ<sup>n</sup>/√5.
 Now, the relationship between Fib(n) and φ and ψ is proven. To prove our original statement -- that Fib(n) is the closest integer to φ<sup>n</sup>/√5, we need to isolate φ:
 
     Fib(n)         = (φⁿ - ψⁿ)/√5
