@@ -1,8 +1,8 @@
 # sicp
 Solutions to exercises from "Structure and Interpretation of Computer Programs", second edition, by Abelson, Sussman and Sussman.
-
-<center>![SICP](sicp.jpg)</center>
-
+<p align="center">
+![SICP](sicp.jpg)
+</p>
 ## Information
 Solutions are written in scheme and can be found in each exercise's markdown (`.md`) file or in its own source file. Some exercises require no code. 
 
