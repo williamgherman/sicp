@@ -3,6 +3,7 @@ Solutions to exercises from "Structure and Interpretation of Computer Programs",
 <p align="center">
 <img src="sicp.jpg"/>
 </p>
+
 ## Information
 Solutions are written in scheme and can be found in each exercise's markdown (`.md`) file or in its own source file. Some exercises require no code. 
 
