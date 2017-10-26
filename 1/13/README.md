@@ -51,4 +51,5 @@ and then prove that ψ<sup>n</sup>/√5 is within -0.5 and 0.5, done by approxim
     ψ/√5    ≈ -0.276393
     |ψⁿ/√5| < 0.5, for all real numbers n > 0 (|ψⁿ/√5| decreases as n increases).
 Therefore, since |ψⁿ/√5| < 0.5, it will not affect the nearest integer value of Fib(n).
+
 So, **Fib(n) is the closest integer to φ**<sup>**n**</sup>**/√5**.
