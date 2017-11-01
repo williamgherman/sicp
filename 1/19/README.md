@@ -50,6 +50,7 @@ b', and a second time to produce a" and b":
 
 Then, q' and p' will be defined as applying q and p twice, as seen from the
 result of b":
+
     p' = p² + q²
     q' = 2pq + q²
 
