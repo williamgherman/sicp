@@ -58,7 +58,7 @@ procedures `f`, `g`, and `h` for positive integer values of *n*. For example,
 65536
 ```
 
-For all positive integers *n*,
-`(f n)` &rarr; 2*n*.
-`(g n)` &rarr; 2<sup>*n*</sup>
+For all positive integers *n*,  
+`(f n)` &rarr; 2*n*.  
+`(g n)` &rarr; 2<sup>*n*</sup>  
 `(h n)` &rarr; 2<sup>2<sup>*n*</sup></sup>
