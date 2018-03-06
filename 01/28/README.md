@@ -22,4 +22,19 @@ way to make `expmod` signal is to have it return 0.
 
 ### Solution
 
-TODO.
+See `28.scm`. Program output:
+
+```
+2: #t: OK
+7: #t: OK
+13: #t: OK
+15: #f: OK
+37: #t: OK
+39: #f: OK
+561: #f: OK
+1105: #f: OK
+1729: #f: OK
+2465: #f: OK
+2821: #f: OK
+6601: #f: OK
+```

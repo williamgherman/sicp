@@ -15,4 +15,7 @@ interpreter and compiler, available online at
 <https://www.gnu.org/software/mit-scheme/>. 
 
 ## License 
-BSD
+
+<a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons 4.0
+CC-by-sa</a>.
