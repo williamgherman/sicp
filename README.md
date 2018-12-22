@@ -1,4 +1,9 @@
 # sicp
+
+*Update 2018-12-22: I have abandoned this project in favor of other, more
+up-to-date textbooks on algorithms, data structures and program design.
+Apologies for the inconvenience.*
+
 Solutions to exercises from "Structure and Interpretation of Computer Programs",
 second edition, by Abelson, Sussman and Sussman.  
 
