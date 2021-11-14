@@ -6,7 +6,7 @@ between *a* and *b* is approximated as:
 
 (*h*/3)(*y*<sub>0</sub> + 4*y*<sub>1</sub> + 2*y*<sub>2</sub> + 4*y*<sub>3</sub> +
 2*y*<sub>4</sub> + ... + 2*y*<sub>*n*-2</sub> + 4*y*<sub>*n*-1</sub> +
-*y*<sub>*n*</sub>
+*y*<sub>*n*</sub>)
 
 where *h* = (*b* - *a*)/*n*, for some even integer *n*, and *y*<sub>*k*</sub> =
 *f*(*a* + *kh*). (Increasing *n* increases the accuracy of the approximation.)

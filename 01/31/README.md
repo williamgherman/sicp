@@ -37,6 +37,20 @@ that generates a recursive process.
    (define (iter a result)
      (if (> a b)
          result
-         (iter (next a) (* result a))))
+         (iter (next a) (* result (term a)))))
    (iter a 1))
+
+; pi/4 approximation:
+
+(define (approx-pi resolution)
+  (define (make-numerator n)
+    (if (even? n)
+        (+ 2 n)
+        (+ 1 n)))
+  (define (make-denominator n)
+    (if (even? n)
+        (+ 1 n)
+        (+ 2 n)))
+  (* 4 (/ (product make-numerator 1 increment resolution)
+          (product make-denominator 1 increment resolution))))
 ```
